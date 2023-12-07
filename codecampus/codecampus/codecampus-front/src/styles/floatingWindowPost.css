@@ -1,0 +1,78 @@
+#bluredBackground{
+    background-color: rgba(0, 0, 0, .8);
+    width: 10000px;
+    height: 100000px;
+    z-index: 6;
+}
+
+#floatingWindowPost{
+    width: 35%;
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    pointer-events: auto;
+    background-color: aliceblue;
+}
+
+#textNewPostTop{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topText{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#closeFloatingWindow{
+    font-size: 18px;
+    margin: 3px;
+    height: 68%;
+    width: 6.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+#infoNewPost{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#textInputNewPost{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textNewPost{
+    font-size: 16PX;
+    width: 90%;
+    height: 70%;
+    resize: none;
+ 
+}
+
+#buttonNewPost{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

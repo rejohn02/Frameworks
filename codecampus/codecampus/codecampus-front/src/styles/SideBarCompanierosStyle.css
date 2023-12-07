@@ -1,0 +1,18 @@
+#sideBarCompanieros{
+width: 20%;
+position: fixed;
+left: 80%;
+top: 70px;
+}
+
+#anunciosImportantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    #sideBarCompanieros{
+      display: none;
+    }
+  }

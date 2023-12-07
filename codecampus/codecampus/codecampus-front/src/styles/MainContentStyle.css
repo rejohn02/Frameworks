@@ -1,0 +1,9 @@
+#mainContent{   
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}

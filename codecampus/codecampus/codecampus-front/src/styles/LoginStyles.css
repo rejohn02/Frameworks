@@ -1,0 +1,43 @@
+#mainContainer{
+    background-image: url("../../public/images/General/bg-login.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#login{
+    width: 400px;
+    background-color: rgba(0, 0, 0,.4);
+    border: 0 solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+#textLogin{
+    width: 130%;
+    display: flex;
+    justify-content: center;
+}
+
+#formLogin{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formLogin p{
+    margin: 0%;
+}
+
+#inputExpediente{
+    width: 100%;
+}

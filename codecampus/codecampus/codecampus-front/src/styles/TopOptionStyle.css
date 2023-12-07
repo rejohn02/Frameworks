@@ -1,0 +1,66 @@
+#topOptions{
+    width: 99%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .5%;
+    background-color: aliceblue;
+    position:fixed;
+    top: 0;
+    z-index: 5;
+}
+
+#codeCampusLogo{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#imgLogo{
+    height: 55px;
+}
+
+#topOptionsUserInfo{
+    width: 33%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#infoUser{
+    height: 39px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding-right: 8px;
+}
+
+#topOptionsSearchBar{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+    #topOptionsUserInfo{
+      display: none;
+    }
+
+    #imgLogo{
+        height: 35px;
+        border: 1px solid transparent;
+        border-radius: 30 round;
+    }
+}
+
+#newPost{
+    font-size: 15px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
